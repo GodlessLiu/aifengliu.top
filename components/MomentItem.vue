@@ -30,7 +30,7 @@ const imagClass = computed(() => {
             </div>
         </div>
         <span style="background-image: url(/moment-bg.svg);"
-            class="absolute right-0 bottom-0 inline-block h-40 w-40 bg-cover">
+            class="absolute right-0 bottom-0 inline-block bg-cover h-3/5 aspect-square -z-10">
         </span>
     </div>
 </template>
