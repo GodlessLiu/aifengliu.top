@@ -14,6 +14,27 @@ interface Stack {
 
 export const projectConfig: ProjectConfig[] = [
     {
+        name: "个人博客",
+        description: "My personal blog",
+        github: "https://github.com/GodlessLiu/aifengliu.top",
+        image: "",
+        date: "2024",
+        stacks: [
+            {
+                name: "Nuxt",
+                link: "https://nuxt.com/"
+            },
+            {
+                name: "TypeScript",
+                link: "https://www.typescriptlang.org/"
+            },
+            {
+                name: "TailwindCSS",
+                link: "https://tailwindcss.com/"
+            }
+        ]
+    },
+    {
         name: "代码管理片段",
         description: "面向开发人员，为了实现创建、组织和共享代码片段的功能，并且不依赖于用户自己使用的IDE",
         github: "https://github.com/GodlessLiu/code-snippet",

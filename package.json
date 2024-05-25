@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "up": "bun run build && node script/deploy.cjs"
+    "up": "bun run build --n && node script/deploy.cjs"
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",

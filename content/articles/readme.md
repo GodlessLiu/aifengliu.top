@@ -26,12 +26,12 @@ console.log(hello);
 ```
 
 ### Image
-![Test image](/img/image.png)
+![博客图片](/img/blog_img.png)
 
 ### Span Text
 Hello [World]{style="background-color: red;padding:4px;"}!
 
-### Vue Component 
+### Vue Component
 
 ::hello-world
 

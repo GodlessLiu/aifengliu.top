@@ -2,6 +2,7 @@ const client = require("scp2");
 require("dotenv").config();
 
 function main() {
+    console.log("开始部署");
     client.scp('./.output', {
         host: process.env.IP,
         port: '22',
