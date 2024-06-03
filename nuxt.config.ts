@@ -4,14 +4,25 @@ export default defineNuxtConfig({
   content: {
     experimental: {
       search: {
-        indexed: false
-      }
+        indexed: true,
+      },
     },
     // ... options
     highlight: {
-      langs: ['javascript', 'css', 'html', 'json', 'markdown', 'nginx', 'bash'],
+      langs: [
+        "javascript",
+        "css",
+        "scss",
+        "html",
+        "json",
+        "markdown",
+        "nginx",
+        "yaml",
+        "bash",
+        "typescript",
+      ],
       // Theme used in all color schemes.
-      theme: 'github-light'
-    }
+      theme: "github-light",
+    },
   },
-})
+});

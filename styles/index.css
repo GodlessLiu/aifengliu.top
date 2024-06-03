@@ -1,56 +1,54 @@
 .router-link-active {
-    @apply text-red-600;
+  @apply text-red-600;
 }
 
 a:hover {
-    @apply opacity-50 underline;
+  @apply opacity-50 underline;
 }
 
 .banner {
-    @apply lg:w-[850px] md:w-full mx-auto;
+  @apply lg:w-[850px] md:w-full mx-auto;
 }
 
 :root {
-    --toastify-color-progress-light: linear-gradient(to right,
-            #000,
-            #fff);
+  --toastify-color-progress-light: linear-gradient(to right, #000, #fff);
 }
 
-.toc-container .toc-list-item>.toc-list {
-    border-left-width: 1px;
-    border-color: var(--fallback-bc, oklch(var(--bc) / .1));
-    padding-left: .5rem;
+.toc-container .toc-list-item > .toc-list {
+  border-left-width: 1px;
+  border-color: var(--fallback-bc, oklch(var(--bc) / 0.1));
+  padding-left: 0.5rem;
 }
 
 .toc-container .is-active-link {
-    color: red;
+  color: red;
 }
 
 .bg {
-    @apply bg-white bg-opacity-70;
+  @apply bg-white bg-opacity-70;
 }
 
 @keyframes grow {
-    0% {
-        stroke-dashoffset: 1px;
-        stroke-dasharray: 0 350px;
-        opacity: 0;
-    }
+  0% {
+    stroke-dashoffset: 1px;
+    stroke-dasharray: 0 350px;
+    opacity: 0;
+  }
 
-    40% {
-        opacity: 1;
-    }
+  40% {
+    opacity: 1;
+  }
 
-    100% {
-        stroke-dasharray: 350px 0;
-    }
+  100% {
+    stroke-dasharray: 350px 0;
+  }
 }
 
 .flower {
-    stroke-dashoffset: 1px;
-    stroke-dasharray: 350px 0;
-    animation: grow 10s ease forwards 1;
-    transform-origin: center center;
-    stroke: #303030;
-    stroke-opacity: .3;
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 350px 0;
+  animation: grow 10s ease forwards 1;
+  transform-origin: center center;
+  stroke: #303030;
+  stroke-opacity: 0.3;
 }
